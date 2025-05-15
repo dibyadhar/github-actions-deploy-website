@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: checkout repsository code
         uses: actions/checkout@v4
-      - run: echo "$(cat hello_world.tx)"
+      - run: echo "$(cat hello_world.txt)"
         
     
   
